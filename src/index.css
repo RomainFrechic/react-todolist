@@ -1,5 +1,57 @@
 body {
   margin: 0;
   padding: 0;
+  margin-left: 35em;
   font-family: sans-serif;
 }
+
+li{
+	list-style: none;
+}
+
+li:hover{
+	color:red;
+}
+
+.header{
+  display: inline-flex;
+}
+
+ .barre{
+ 	text-decoration:line-through;
+ }
+
+.h1 {
+        position: relative;
+        font-size: 70px;
+        margin-top: 0;
+        font-family: 'Lobster', helvetica, arial;
+   
+        text-decoration: none;
+        color: #666;
+       
+         
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+   
+        content : 'TODOLIST';
+        color: #d6d6d6;
+        text-shadow: 0 1px 0 white;
+    }
+
+    .h2 {
+        position: relative;
+        font-size: 70px;
+        margin-top: 0;
+        font-family: 'Lobster', helvetica, arial;
+   
+        text-decoration: none;
+        color: black;
+       
+         
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+   
+        content : 'TODOLIST';
+        color: black;
+        text-shadow: 0 1px 0 white;
+    }
+     

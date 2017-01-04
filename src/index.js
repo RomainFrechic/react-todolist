@@ -5,7 +5,12 @@ import ReactDOM from 'react-dom';
  //import App from './App';
 import './index.css';
 import TodoApp from './App';
+import App from './logo';
 
 ReactDOM.render(
-<TodoApp />, document.getElementById('root')
+	<div>
+<TodoApp />
+<App />
+</div>
+, document.getElementById('root')
   );
