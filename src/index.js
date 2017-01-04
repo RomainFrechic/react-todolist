@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+//import {render} from 'react-dom';
+//import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+ //import App from './App';
 import './index.css';
+import TodoApp from './App';
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('root')
-);
+<TodoApp />, document.getElementById('root')
+  );
